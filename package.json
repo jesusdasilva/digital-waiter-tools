@@ -1,0 +1,15 @@
+{
+  "name": "digital-waiter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mariadb": "^2.4.2",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
