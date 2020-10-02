@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33d4a561-f703-4618-bae8-283f3a7feee6" name="Default Changelist" comment="arreglo">
+      <change afterPath="$PROJECT_DIR$/route/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
@@ -75,6 +76,7 @@
       <updated>1601558005654</updated>
       <workItem from="1601558007123" duration="15662000" />
       <workItem from="1601606849887" duration="1720000" />
+      <workItem from="1601656902297" duration="3046000" />
     </task>
     <task id="LOCAL-00001" summary="arreglo">
       <created>1601606899551</created>
@@ -99,6 +101,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

@@ -3,21 +3,22 @@ const morgan = require("morgan")
 
 const app = express()
 
+// Require routes
+const route = require('./route')
+
+// Settings
+app.set('appName', 'Digital Waiter Tools')
+app.set('port', 3000)
+
+
 // Middleware
 app.use(express.json())
 app.use(morgan('dev'))
 
-// Setting
+// Rotes
+app.use('/api',route)
 
-// Routhes
-
-app.get('/user',(req,res)=> {
-    res.send({
-        userName: 'Jesus Manuel',
-        lastName: 'Dasilva Barreto'
-    })
-})
-
-app.listen(3000, () => {
-    console.log("Server on port 3000");
+app.listen(app.get('port'), () => {
+    console.log(app.get('appName'))
+    console.log('Server on port', app.get('port') );
 })
