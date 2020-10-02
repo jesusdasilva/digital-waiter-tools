@@ -3,25 +3,21 @@ const morgan = require("morgan")
 
 const app = express()
 
+// Middleware
 app.use(express.json())
 app.use(morgan('dev'))
 
-// SETTING
+// Setting
 
-// ROUTES
+// Routhes
 
-//
-
-
+app.get('/user',(req,res)=> {
+    res.send({
+        userName: 'Jesus Manuel',
+        lastName: 'Dasilva Barreto'
+    })
+})
 
 app.listen(3000, () => {
-    console.log("El servidor está inicializado en el puerto 3000");
+    console.log("Server on port 3000");
 })
-
-app.get('/', function (req, res) {
-    res.send('Saludos desde express')
-})
-
-app.get('/hola', function (req, res) {
-    res.send('[GET]Saludos desde express');
-});
